@@ -30,7 +30,6 @@ class QR_Generator:
         lbl_name=Label(emp_Frame,text="Name", font=("goudy old style",15,'bold'),bg='white').place(x=20,y=100)
         lbl_department=Label(emp_Frame,text="Department", font=("goudy old style",15,'bold'),bg='white').place(x=20,y=140)
         lbl_designation=Label(emp_Frame,text="Designation", font=("goudy old style",15,'bold'),bg='white').place(x=20,y=180)
-        lbl_Food_Type=Label(emp_Frame,text="Food_Type", font=("goudy old style",15,'bold'),bg='white').place(x=20,y=180)
 
         # Inputs
         txt_emp_code=Entry(emp_Frame,text="Employee ID", font=("goudy old style",15),bg='lightyellow',textvariable=self.var_emp_code).place(x=200,y=60)
